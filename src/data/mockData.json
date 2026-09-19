@@ -1,0 +1,32 @@
+{
+  "users": [
+    { "id": 1, "name": "Rahul Patel", "email": "rahul@company.com", "role": "support" },
+    { "id": 2, "name": "Neha Sharma", "email": "neha@company.com", "role": "support" },
+    { "id": 3, "name": "Amit Shah", "email": "amit@company.com", "role": "employee" },
+    { "id": 4, "name": "Priya Shah", "email": "priya@company.com", "role": "employee" }
+  ],
+  "tickets": [
+    {
+      "id": 1,
+      "ticket_id": "TCK-1025",
+      "subject": "Unable to access company email",
+      "description": "Employee cannot log in to company email.",
+      "priority": "High",
+      "status": "Open",
+      "assigned_to": 1,
+      "created_by": 3,
+      "created_at": "2026-09-12T09:30:00"
+    },
+    {
+      "id": 2,
+      "ticket_id": "TCK-1024",
+      "subject": "Laptop not working",
+      "description": "Laptop is not turning on.",
+      "priority": "Medium",
+      "status": "In Progress",
+      "assigned_to": 2,
+      "created_by": 4,
+      "created_at": "2026-09-11T10:24:00"
+    }
+  ]
+}
