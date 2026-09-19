@@ -1,16 +1,24 @@
-# React + Vite
+# Help Desk Support Ticket System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern React-based Help Desk Web Application built with Vite and Tailwind CSS to manage customer support tickets efficiently.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Dashboard Summary**: Overview of total, open, in-progress, resolved, and high-priority tickets.
+- **Ticket Management**: View, filter, create, and update ticket statuses.
+- **Validation**: Form validation for emails, passwords, and ticket creation.
+- **Persistent Storage**: Utilizes `localStorage` for mock API data persistence.
+- **Responsive Design**: Styled with Tailwind CSS v4 for clean UI across screens.
 
-## React Compiler
+## 🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Frontend**: React (Vite)
+- **Styling**: Tailwind CSS
+- **Routing**: React Router DOM
+- **Icons**: Lucide React / Heroicons
 
-## Expanding the ESLint configuration
+## 📦 Installation & Setup
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. **Clone or Download the repository**
+   ```bash
+   cd HELP_DESK
